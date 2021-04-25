@@ -6,21 +6,23 @@ Sha-Coin[Helps to  Creating &amp; Sending Coins/Tokens for any Purpose like an I
 
 # Install packages
 
-1.```sudo apt-get update && sudo apt-get -y upgrade```
+```sudo apt-get update && sudo apt-get -y upgrade```
 
-2.``` sudo apt-get -y install curl git vim build-essential```
+``` sudo apt-get -y install curl git vim build-essential```
 
 # Install NodeJs
 
-1. curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-2. sudo apt-get install -y nodejs
-3. sudo npm install -g express
+``` curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - ```
+
+``` sudo apt-get install -y nodejs ```
+
+``` sudo npm install -g express ```
 
 # Install Truffle
-a. sudo npm install -g truffle
+``` sudo npm install -g truffle ```
 
 # Install testrpc
-a. sudo npm install -g ethereumjs-testrpc
+``` sudo npm install -g ethereumjs-testrpc ```
 
 # How to run a Project
 
@@ -28,17 +30,17 @@ a. sudo npm install -g ethereumjs-testrpc
 
 
 
-      a. truffle compile    //compiles solidity file
+      a. ```truffle compile ```   //compiles solidity file
   
   
   
-      b. truffle migrate   // migrating all files in Private Blockchain i.e TESTRPC
+      b. ```truffle migrate```   // migrating all files in Private Blockchain i.e TESTRPC
   
   
       NOTE: Before Migration run TESTRPC in another Terminal by using command testrpc
  
  
-      c. npm run dev    //pick the url:localhost:8080
+      c.``` npm run dev ```   //pick the url:localhost:8080
   
   
   
