@@ -7,6 +7,7 @@ Sha-Coin[Helps to  Creating &amp; Sending Coins/Tokens for any Purpose like an I
 # Install packages
 
 1.```sudo apt-get update && sudo apt-get -y upgrade```
+
 2.``` sudo apt-get -y install curl git vim build-essential```
 
 # Install NodeJs
